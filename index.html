@@ -47,7 +47,7 @@
                     </div>
                     <div class="carousel-inner">
                       <div class="carousel-item active">
-                        <div class="item">
+                        <div class="item1">
                             <div class="item_left">
                                 <h1>A Culinary Experience Awaits</h1>
                                 <p>Whether you're celebrating a special occasion or enjoying a casual meal, our inviting atmosphere and attentive service provide the ideal setting. Join us for an exceptional dining experience today!</p>
@@ -59,7 +59,7 @@
                         </div>
                       </div>
                       <div class="carousel-item">
-                        <div class="item">
+                        <div class="item1">
                             <div class="item_left">
                                 <h1>Where Every Meal is a Masterpiece</h1>
                                 <p>Welcome to our restaurant, where every dish is crafted with fresh, local ingredients. Enjoy a unique dining experience that blends tradition with modern flavors, ensuring unforgettable moments with every bite.</p>
@@ -72,7 +72,7 @@
                         </div>
                       </div>
                       <div class="carousel-item">
-                        <div class="item">
+                        <div class="item1">
                             <div class="item_left">
                                 <h1>Fresh, Local, Delicious</h1>
                                 <p>Our chefs are passionate about creating culinary masterpieces. From starters to desserts, each plate reflects creativity and skill, offering a perfect balance of taste, texture, and presentation.</p>
@@ -96,13 +96,61 @@
                   </div>
             </div>
         </div> 
+
+        <div class="menues_slide">
+            <button>Menues</button>
+            <div class="products">
+                <div class="owl-carousel owl-theme">
+                    <div class="item"><h4>1</h4></div>
+                    <div class="item"><h4>2</h4></div>
+                    <div class="item"><h4>3</h4></div>
+                    <div class="item"><h4>4</h4></div>
+                    <div class="item"><h4>5</h4></div>
+                    <div class="item"><h4>6</h4></div>
+                    <div class="item"><h4>7</h4></div>
+                    <div class="item"><h4>8</h4></div>
+                    <div class="item"><h4>9</h4></div>
+                    <div class="item"><h4>10</h4></div>
+                    <div class="item"><h4>11</h4></div>
+                    <div class="item"><h4>12</h4></div>
+                </div>
+            </div>
+        </div>
+
     </div>
-   
+
+
+  
+
+
+
+ <!-- Jquery CDN Link -->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+ 
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
 <!-- Bootstrap Javascript CDN -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
-<!-- Owl Carousel Javascript CDN -->
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop:true,
+            margin:10,
+            nav:true,
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:3
+                },
+                1000:{
+                    items:9
+                }
+            }
+        })
+        </script>
+    
 </body>
 </html>
