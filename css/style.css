@@ -87,3 +87,55 @@
     width: 15px !important;
     border-radius: 100% !important;
 }
+
+/* Product Slide CSS Start */
+.products {
+    width: 1000px;
+    margin: 0 auto;
+}
+.menues_slide{
+    width: 100%;
+    margin: 0 auto;
+}
+.menues_slide button{
+    display: block;
+    margin: 0 auto;
+    background-color: yellow;
+    color: black;
+    border-radius: 20px;
+    padding: 8px 30px;
+    margin-top: -23px;
+    margin-bottom: 15px;
+}
+
+.item{
+    text-align: center;
+}
+.item img{
+    height: 60px ;
+    width: 50px ;
+    
+
+}
+.item h5{}
+.owl-nav{
+
+}
+.owl-nav button{
+    position: absolute;
+    margin: 0;
+    top: 15%;  
+}
+.owl-nav button.owl-prev{
+    left: 0;
+}
+.owl-nav button.owl-next{
+    right: 0;
+}
+.owl-nav span {
+    font-size: 26px;
+    background: pink;
+    color: white;
+    padding: 5px;
+    margin: -11px;
+}
