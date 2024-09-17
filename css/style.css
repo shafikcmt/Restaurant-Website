@@ -139,3 +139,71 @@
     padding: 5px;
     margin: -11px;
 }
+
+/* Restaurent Offer Section CSS start */
+
+.restaurent_offer {
+    display: flex;
+    align-items: center;
+    height: 500px;
+    background: skyblue;
+    width: 1000px;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.offer_row1{
+    height: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+.offer_item {
+    display: flex;
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    width: 32%;
+    align-items: center;
+}
+.offer_left {
+    width: 40%;
+}
+.offer_left h2 {
+    font-size: 20px;
+}
+.offer_left p{
+    text-align: justify;
+    font-size: 10px;
+}
+.offer_left h3 {
+    font-size: 15px;
+}
+.offer_right{
+    width: 60%;
+}
+.offer_right img {
+    height: 140px;
+    width: 150px;
+    border-radius: 16px;
+    margin: 10px;
+}
+.offer_row2{
+    height: 40%;
+    display: flex;
+    justify-content: space-around; 
+}
+.offer_items{
+    display: flex;
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    width: 48%;
+    align-items: center;
+}
+.offer_items .offer_left{
+    width: 50%;
+}
+.offer_items .offer_right{
+    width: 50%;
+
+}
